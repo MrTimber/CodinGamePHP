@@ -21,14 +21,14 @@ All sources files included from `src/app.php` will be combined in `dest/ocean_of
 ### Sync with Coding Game
 
 Use the Coding Game Chrome plugin to sync with `dest/ocean_of_code.php`:
-![](assets/Sync with Coding Game.png)
+![Sync with Coding Game](assets/Sync%20with%20Coding%20Game.png)
 
 ## Advanced usage with PhpStorm
 
 ### Automatise the combination with PhpStorm
 
 In **Tools > Filewatcher**, set a custom Filewatcher:
-![](assets/Set a custom file watcher.png)
+![Set a custom file watcher](assets/Set%20a%20custom%20file%20watcher.png)
 You must give the full path of your PHP executable, and the full path of the project as working directory.
 
 Now when you modify a source file, the combined file will be regenerated automatically !
@@ -36,8 +36,8 @@ Now when you modify a source file, the combined file will be regenerated automat
 ### Testing
 
 If you want to implement some tests and run them with PhpStorm, you also also set your PHP interpreter in **Langages and Frameworks > PHP**:
-![](assets/Set PHP interpreter 1.png)
-![](assets/Set PHP interpreter 2.png)
+![Set PHP interpreter 1](assets/Set%20PHP%20interpreter%201.png)
+![Set PHP interpreter 2](assets/Set%20PHP%20interpreter%202.png)
 
 ### PhpStorm tips
 
