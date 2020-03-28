@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=7.3",
+        "codeless/jugglecode": "^1.0",
+        "nikic/php-parser": "^1.4",
+        "codeless/logmore": "^0.9.0"
+    },
+    "config": {
+        "platform": {
+            "php": "7.3"
+        }
+    }
+}
