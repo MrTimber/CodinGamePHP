@@ -1,4 +1,8 @@
-# Coding Games - Ocean of Code
+# CodinGamePHP
+
+Develop your PHP code for Coding Game challenges using multiple source files
+
+This repo has originaly been made for *Ocean of Code* multiplayer game, but it is compatible with any other challenge.
 
 ## Basic usage
 
@@ -15,12 +19,13 @@ a bit modified with 3 empty classes (Map, Player, and Game) required as example.
 
 ### Combine all sources files into one
 
+Configure the dest filename in `combine.php`
 Execute `php combine.php`  
-All sources files included from `src/app.php` will be combined in `dest/ocean_of_code.php`  
+All sources files included from `src/app.php` will be combined in `dest/filename.php`  
 
 ### Sync with Coding Game
 
-Use the Coding Game Chrome plugin to sync with `dest/ocean_of_code.php`:
+Use the Coding Game Chrome plugin to sync with `dest/filename.php`:
 ![Sync with Coding Game](assets/Sync%20with%20Coding%20Game.png)
 
 ## Advanced usage with PhpStorm
