@@ -1,6 +1,6 @@
 # CodinGamePHP
 
-Develop your PHP code for Coding Game challenges using multiple source files
+**Develop your PHP code for Coding Game challenges using multiple source files**
 
 This repo has originaly been made for *Ocean of Code* multiplayer game, but it is compatible with any other challenge.
 
