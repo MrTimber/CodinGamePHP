@@ -2,7 +2,12 @@
 
 **Develop your PHP code for Coding Game challenges using multiple source files**
 
-This repo has originaly been made for *Ocean of Code* multiplayer game, but it is compatible with any other challenge.
+This repo has originally been made for *Ocean of Code* multiplayer game, but it is compatible with any other challenge.
+
+# Branches
+
+- branch 2.x => uses PHP Parser 5.x: for running on PHP >= 7.4; for parsing PHP 7.0 to PHP 8.4, with limited support for parsing PHP 5.x
+- branch 1.x => uses PHP Parser 4.x: for running on PHP >= 7.0; for parsing PHP 5.2 to PHP 8.3
 
 ## Basic usage
 

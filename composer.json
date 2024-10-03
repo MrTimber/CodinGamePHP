@@ -10,14 +10,13 @@
         }
     ],
     "require": {
-        "php": ">=7.3",
-        "mrtimber/jugglecode" : "dev-main",
-        "mrtimber/logmore" : "dev-main",
-        "nikic/php-parser" : ">=4.0"
+        "php" : ">=7.4",
+        "mrtimber/jugglecode" : "1.x-dev",
+        "mrtimber/logmore" : "dev-main"
     },
     "config": {
         "platform": {
-            "php": "7.3"
+            "php": "7.4"
         }
     }
 }

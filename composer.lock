@@ -4,28 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a796e5b269dee6f5912a1baed6e0f5f2",
+    "content-hash": "ba53f6f2fc5c4123821b1a8da8142591",
     "packages": [
         {
             "name": "mrtimber/jugglecode",
-            "version": "dev-main",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MrTimber/jugglecode.git",
-                "reference": "48b0bb765cdcc67a05166c3a49b43ac9e7fe0b24"
+                "reference": "8518c18e4fc814e2f29627930c07e11036a0b495"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MrTimber/jugglecode/zipball/48b0bb765cdcc67a05166c3a49b43ac9e7fe0b24",
-                "reference": "48b0bb765cdcc67a05166c3a49b43ac9e7fe0b24",
+                "url": "https://api.github.com/repos/MrTimber/jugglecode/zipball/8518c18e4fc814e2f29627930c07e11036a0b495",
+                "reference": "8518c18e4fc814e2f29627930c07e11036a0b495",
                 "shasum": ""
             },
             "require": {
                 "mrtimber/logmore": "dev-main",
-                "nikic/php-parser": ">=4.0",
-                "php": ">=5.6"
+                "nikic/php-parser": "^4.0",
+                "php": ">=7.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -45,10 +44,10 @@
                 "prettyprint"
             ],
             "support": {
-                "source": "https://github.com/MrTimber/jugglecode/tree/main",
+                "source": "https://github.com/MrTimber/jugglecode/tree/1.x",
                 "issues": "https://github.com/MrTimber/jugglecode/issues"
             },
-            "time": "2024-10-03T13:45:08+00:00"
+            "time": "2024-10-03T16:50:02+00:00"
         },
         {
             "name": "mrtimber/logmore",
@@ -56,12 +55,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MrTimber/logmore.git",
-                "reference": "e4288569309b4881822a30c99d0ee2f603487ba7"
+                "reference": "e29ce5b81273496c4507fd5a98e3df91ea1f6096"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MrTimber/logmore/zipball/e4288569309b4881822a30c99d0ee2f603487ba7",
-                "reference": "e4288569309b4881822a30c99d0ee2f603487ba7",
+                "url": "https://api.github.com/repos/MrTimber/logmore/zipball/e29ce5b81273496c4507fd5a98e3df91ea1f6096",
+                "reference": "e29ce5b81273496c4507fd5a98e3df91ea1f6096",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +86,7 @@
                 "source": "https://github.com/MrTimber/logmore/tree/main",
                 "issues": "https://github.com/MrTimber/logmore/issues"
             },
-            "time": "2024-10-03T13:04:45+00:00"
+            "time": "2024-10-03T17:09:37+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -156,11 +155,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.3"
+        "php": ">=7.4"
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "7.3"
+        "php": "7.4"
     },
     "plugin-api-version": "2.2.0"
 }
