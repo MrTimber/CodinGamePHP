@@ -8,13 +8,13 @@
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="php" />
       <option name="immediateSync" value="true" />
-      <option name="name" value="JuggleCode" />
+      <option name="name" value="Combine" />
       <option name="output" value="" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="C:/wamp64/bin/wamp64/bin/php/php8.3.6/php" />
+      <option name="program" value="$PROJECT_DIR$/../../../../../wamp64/bin/php/php8.2.18/php" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="src" />
       <option name="trackOnlyRoot" value="false" />
