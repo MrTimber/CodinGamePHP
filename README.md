@@ -45,7 +45,7 @@ Now when you modify a source file, the combined file will be regenerated automat
 
 ### Testing
 
-If you want to implement some tests and run them with PhpStorm, you also also set your PHP interpreter in **Langages and Frameworks > PHP**:
+If you want to implement some tests and run them with PhpStorm, you also set your PHP interpreter in **Langages and Frameworks > PHP**:
 ![Set PHP interpreter 1](assets/Set%20PHP%20interpreter%201.png)
 ![Set PHP interpreter 2](assets/Set%20PHP%20interpreter%202.png)
 
@@ -54,4 +54,4 @@ If you want to implement some tests and run them with PhpStorm, you also also se
 You should exclude `dest` and `vendor` folders to avoid indexing their content
 
 ### Note
-I haven't exclude the `.idea` folder from repository so you can just adapt my PhpStorm configuration for you own instead of setting it from scratch.
+I haven't excluded the `.idea` folder from repository so you can just adapt my PhpStorm configuration for you own instead of setting it from scratch.
