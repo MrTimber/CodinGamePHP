@@ -14,7 +14,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="C:/wamp64/bin/php/php7.3.5/php" />
+      <option name="program" value="C:/wamp64/bin/wamp64/bin/php/php8.3.6/php" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="src" />
       <option name="trackOnlyRoot" value="false" />

@@ -1,9 +1,19 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/MrTimber/jugglecode"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/MrTimber/logmore"
+        }
+    ],
     "require": {
         "php": ">=7.3",
-        "codeless/jugglecode": "^1.0",
-        "nikic/php-parser": "^1.4",
-        "codeless/logmore": "^0.9.0"
+        "mrtimber/jugglecode" : "dev-main",
+        "mrtimber/logmore" : "dev-main",
+        "nikic/php-parser" : ">=4.0"
     },
     "config": {
         "platform": {
