@@ -4,27 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba53f6f2fc5c4123821b1a8da8142591",
+    "content-hash": "3ec0f5b1cf34a3908c6c7b7dae2457a5",
     "packages": [
         {
             "name": "mrtimber/jugglecode",
-            "version": "1.x-dev",
+            "version": "2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MrTimber/jugglecode.git",
-                "reference": "8518c18e4fc814e2f29627930c07e11036a0b495"
+                "reference": "45af61bb4787573157cc62484dd42fb89ba3addf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MrTimber/jugglecode/zipball/8518c18e4fc814e2f29627930c07e11036a0b495",
-                "reference": "8518c18e4fc814e2f29627930c07e11036a0b495",
+                "url": "https://api.github.com/repos/MrTimber/jugglecode/zipball/45af61bb4787573157cc62484dd42fb89ba3addf",
+                "reference": "45af61bb4787573157cc62484dd42fb89ba3addf",
                 "shasum": ""
             },
             "require": {
                 "mrtimber/logmore": "dev-main",
-                "nikic/php-parser": "^4.0",
-                "php": ">=7.0"
+                "nikic/php-parser": "^5.0",
+                "php": ">=7.4"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -44,10 +45,10 @@
                 "prettyprint"
             ],
             "support": {
-                "source": "https://github.com/MrTimber/jugglecode/tree/1.x",
+                "source": "https://github.com/MrTimber/jugglecode/tree/2.x",
                 "issues": "https://github.com/MrTimber/jugglecode/issues"
             },
-            "time": "2024-10-03T16:50:02+00:00"
+            "time": "2024-10-03T16:41:45+00:00"
         },
         {
             "name": "mrtimber/logmore",
@@ -90,25 +91,27 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.19.4",
+            "version": "v5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "715f4d25e225bc47b293a8b997fe6ce99bf987d2"
+                "reference": "ae59794362fe85e051a58ad36b289443f57be7a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/715f4d25e225bc47b293a8b997fe6ce99bf987d2",
-                "reference": "715f4d25e225bc47b293a8b997fe6ce99bf987d2",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ae59794362fe85e051a58ad36b289443f57be7a9",
+                "reference": "ae59794362fe85e051a58ad36b289443f57be7a9",
                 "shasum": ""
             },
             "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
                 "ext-tokenizer": "*",
-                "php": ">=7.1"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
-                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+                "phpunit/phpunit": "^9.0"
             },
             "bin": [
                 "bin/php-parse"
@@ -116,7 +119,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.9-dev"
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
@@ -140,9 +143,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.19.4"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.5.0"
             },
-            "time": "2024-09-29T15:01:53+00:00"
+            "time": "2025-05-31T08:24:38+00:00"
         }
     ],
     "packages-dev": [],
@@ -155,11 +158,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4"
+        "php": ">=8.2"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
-        "php": "7.4"
+        "php": "8.2"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
