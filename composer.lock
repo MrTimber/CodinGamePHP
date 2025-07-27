@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba53f6f2fc5c4123821b1a8da8142591",
+    "content-hash": "b26246748296d1dfc71b3512086dc211",
     "packages": [
         {
             "name": "mrtimber/jugglecode",
@@ -157,9 +157,9 @@
     "platform": {
         "php": ">=7.4"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.6.0"
 }
